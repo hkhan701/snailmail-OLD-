@@ -85,7 +85,7 @@ border-radius: 10px;
     gap: 1rem;
 }
 
-.main-title h1 {
+.header-style {
     font-family: var(--font-family-title);
     font-size: var(--fs-900);
     font-weight: var(--fw-black);
@@ -105,12 +105,14 @@ border-radius: 10px;
     gap: 5rem;
     margin: 0 auto;
 
-    font-family: var(--font-family-default);
-    font-size: var(--fs-400);
-    font-weight: var(--fw-black);
+    
 }
 
 .btn-style {
+    font-family: var(--font-family-default);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-black);
+
     background-color: var(--color-black);
     border: 2px solid var(--color-black);
     border-radius: 0.4rem;
@@ -165,6 +167,14 @@ footer {
 footer img {
     max-height: 3.5rem;
     margin: 1.5rem auto;
+}
+
+
+/* Messages area Styling */
+
+.message-title {
+    font-size: var(--fs-600);
+    text-shadow: -0.2rem 0.2rem 0 var(--color-pink);
 }
 
   

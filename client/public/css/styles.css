@@ -231,4 +231,67 @@ header {
 }
 
 
+
+
+.signup-form{
+    font-family: var(--font-family-default);
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: var(--color-grey);
+    padding: 34px;
+    padding-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+
+  .signup-form form .input-box{
+    height: 52px;
+    margin: 18px 0;
+  }
+
+  form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+
+  .input-box input:focus,
+  .input-box input:valid{
+    border-color: var(--color-black);
+  }
+
+  .input-box.button input{
+    font-weight: var(--fw-black);
+    color: var(--color-black);
+    letter-spacing: 1px;
+    border: none;
+    background: var(--color-pink);
+    cursor: pointer;
+  }
+  .input-box.button input:hover{
+    background: var(--color-light-pink);
+    border: 2px solid var(--color-black);
+  }
+  form .text h3{
+   color: var(--color-black);
+   width: 100%;
+   text-align: center;
+  }
+
+  form .text h3 a{
+    color: var(--color-green);
+    text-decoration: none;
+  }
+  form .text h3 a:hover{
+    text-decoration: underline;
+  }
   

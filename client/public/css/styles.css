@@ -6,7 +6,7 @@
     --color-pink: #f2b5be;
     --color-light-pink: #ffdbde;
     --color-black: #020c17;
-    --color-grey: #e8e8e4;
+    --color-grey: #e1e0dc;
     --color-white: #fffffd;
 
     /* FONT */
@@ -38,6 +38,9 @@
 
 body { 
     background-color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     overflow-x: hidden;
 }
 
@@ -172,9 +175,60 @@ footer img {
 
 /* Messages area Styling */
 
+.message-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem auto;
+}
+
 .message-title {
-    font-size: var(--fs-600);
+    font-size: var(--fs-500);
     text-shadow: -0.2rem 0.2rem 0 var(--color-pink);
 }
+
+.message-gallery {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 0.7rem;
+    max-height: 30rem;
+    margin: 0 auto;
+}
+
+.message-box {
+    width: 20rem;
+    min-height: 8rem;
+    background-color: var(--color-grey);
+    border-radius: 1rem;
+    border: 2px solid var(--color-black);
+}
+
+header {
+    display: flex;
+    justify-content: center;;
+}
+
+.header-container {
+    display: flex;
+    min-width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+
+.backbtn img {
+    width: 1.5rem;
+}
+
+.profilebtn img {
+    width: 2rem;
+}
+
 
   
